@@ -7,8 +7,8 @@ export class Reader {
     private $littleEndian: boolean;
     private $offset: number;
 
-    constructor(view: DataView, littleEndian?: boolean, offset?: number) {
-        this.$view = view;
+    constructor(src: DataView | ArrayBuffer, littleEndian?: boolean, offset?: number) {
+        this.$view = src instanceof DataView ? src : new DataView(src);
         this.$littleEndian = !!littleEndian;
         this.$offset = offset || 0;
     }

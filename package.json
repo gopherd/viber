@@ -1,0 +1,36 @@
+{
+  "name": "@gopherd/viber",
+  "version": "0.1.0",
+  "description": "A lightweight game framework",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopherd/viber.git"
+  },
+  "keywords": [
+    "3d",
+    "game",
+    "framework"
+  ],
+  "author": "gopherd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gopherd/viber/issues"
+  },
+  "homepage": "https://github.com/gopherd/viber#readme",
+  "devDependencies": {
+    "@types/three": "^0.136.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "three": "^0.136.0"
+  }
+}
