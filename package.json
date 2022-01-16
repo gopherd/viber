@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "prepare": "npm run build",
-    "build": "tsc"
+    "build": "rm -rf ./lib ./d.ts && tsc"
   },
   "repository": {
     "type": "git",
