@@ -6,8 +6,9 @@
             "dom"
         ],
         "module": "es6",
+        "outDir": "./lib",
         "declaration": true,
-        "outDir": "./lib"
+        "declarationDir": "d.ts"
     },
     "include": [
         "src"
