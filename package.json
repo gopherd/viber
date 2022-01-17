@@ -1,6 +1,6 @@
 {
   "name": "@gopherd/viber",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A lightweight game framework",
   "main": "lib/index.js",
   "types": "d.ts/index.d.ts",
